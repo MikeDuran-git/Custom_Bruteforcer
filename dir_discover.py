@@ -5,8 +5,8 @@ file_name= input("[+] Enter file name containing directories: ") # input the web
 
 def request(url):
     try:
-        return requests.get("http://"+ url)
-    except requests.exceptions.ConnectionError:
+        return req.get("http://"+ url)
+    except req.exceptions.ConnectionError:
         pass
     pass
 
